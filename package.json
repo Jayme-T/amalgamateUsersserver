@@ -1,0 +1,33 @@
+{
+  "name": "amalgamate",
+  "version": "1.0.0",
+  "description": "backend",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "Jamie Thorson",
+  "license": "MIT",
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "",
+  "dependencies": {
+    "bcrypt": "^0.8.7",
+    "body-parser": "^1.15.2",
+    "bower": "^1.7.9",
+    "cors": "^2.7.1",
+    "dotenv": "^2.0.0",
+    "express": "~4.13.1",
+    "express-jwt": "^3.4.0",
+    "jsonwebtoken": "^7.1.7",
+    "knex": "^0.11.10",
+    "morgan": "~1.6.1",
+    "nodemon": "^1.10.0",
+    "pg": "^6.0.3"
+  }
+}
